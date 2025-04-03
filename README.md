@@ -7,4 +7,4 @@ even when you only need 1-2 animation effects. This can
 significantly impact your website's loading time and performance.
 
 ## demo
-[title](https://aymaq-code.github.io/Lightweight-Web-Animations/)
+click [here](https://aymaq-code.github.io/Lightweight-Web-Animations/) to live demo
