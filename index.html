@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Lightweight Web Animations</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Lightweight Web Animations</h1>
+      <a href="https://github.com/Aymaq-code" target="_blank">
+        <img src="GitHub-logo.png" alt="logo" class="github-icon" />
+      </a>
+    </header>
+
+    <div class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">Why This Project?</h2>
+        <div class="hero-text">
+          <p>
+            Many developers rely on heavy animation libraries (like AOS -
+            Animate On Scroll) that can add up to 330KB to your bundle size,
+            even when you only need 1-2 animation effects. This can
+            significantly impact your website's loading time and performance.
+          </p>
+
+          <h3>Our Solution</h3>
+          <p>This lightweight, modular animation system:</p>
+          <ul>
+            <li>Eliminates the need for heavy npm packages</li>
+            <li>
+              Provides individual animation effects (fade, flip, zoom) that you
+              can copy-paste as needed
+            </li>
+            <li>
+              Reduces bundle size by only including the animations you actually
+              use
+            </li>
+            <li>Maintains smooth performance with optimized CSS transitions</li>
+            <li>Works seamlessly with scroll-based triggers</li>
+          </ul>
+
+          <h3>Key Benefits</h3>
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <span class="benefit-icon">🚀</span>
+              <p>Faster page loads</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">📦</span>
+              <p>Smaller bundle size</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">🎯</span>
+              <p>More control over animations</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">💡</span>
+              <p>Easy to implement and customize</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">🔧</span>
+              <p>No dependencies required</p>
+            </div>
+          </div>
+
+          <div class="example-section">
+            <h3>Example Use Case</h3>
+            <p>
+              Instead of installing a 330KB package for a simple fade-up effect,
+              you can simply copy the specific animation code you need (usually
+              less than 1KB) and implement it directly in your project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- fade up and fade down -->
+      <div class="content">
+        <!-- fade up -->
+        <div class="animation-container margin-bottom-35rem">
+          <div class="fade-up content-item">
+            <p>class name fade-up</p>
+          </div>
+        </div>
+
+        <!-- fade down -->
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="fade-down content-item">
+            <p>class name fade-down</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- fade right and left content -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="fade-right content-item">
+            <p>class name fade-right</p>
+          </div>
+        </div>
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="fade-left content-item">
+            <p>class name fade-left</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- fade fade-up-right and fade-up-left -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="fade-up-right content-item">
+            <p>class name fade-up-right</p>
+          </div>
+        </div>
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="fade-up-left content-item">
+            <p>class name fade-up-left</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- fade-down-right and fade-down-left -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="fade-down-right content-item">
+            <p>class name fade-down-right</p>
+          </div>
+        </div>
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="fade-down-left content-item">
+            <p>class name fade-down-left</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- flip-left and flip-right -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="flip-left content-item">
+            <p>class name flip-left</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="flip-right content-item">
+            <p>class name flip-right</p>
+          </div>
+        </div>
+      </div>
+
+      <!--flip-up and flip-down -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="flip-up content-item">
+            <p>class name flip-up</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="flip-down content-item">
+            <p>class name flip-down</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- zoom-in and zoom-out -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="zoom-in content-item">
+            <p>class name zoom-in</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="zoom-in-up content-item">
+            <p>class name zoom-in-up</p>
+          </div>
+        </div>
+      </div>
+      <!-- zoom-in-down and zoom-in-left -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="zoom-in-down content-item">
+            <p>class name zoom-in-down</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="zoom-in-left content-item">
+            <p>class name zoom-in-left</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- zoom-in-right and zoom-out -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="zoom-in-right content-item">
+            <p>class name zoom-in-right</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="zoom-out content-item">
+            <p>class name zoom-out</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- zoom-out-up and zoom-out-down -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="zoom-out-up content-item">
+            <p>class name zoom-out-up</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="zoom-out-down content-item">
+            <p>class name zoom-out-down</p>
+          </div>
+        </div>
+      </div>
+      <!-- zoom-out-right and zoom-out-left -->
+      <div class="content">
+        <div class="animation-container margin-bottom-35rem">
+          <div class="zoom-out-right content-item">
+            <p>class name zoom-out-right</p>
+          </div>
+        </div>
+
+        <div class="animation-container margin-bottom-neg-35rem">
+          <div class="zoom-out-left content-item">
+            <p>class name zoom-out-left</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-text">
+          Thank you for visiting our lightweight web animations showcase. We're
+          passionate about creating performant and beautiful web experiences.
+        </p>
+        <div class="contact-info">
+          <a
+            href="https://wa.me/93708760475"
+            target="_blank"
+            class="contact-item"
+          >
+            <span class="contact-icon"><i class="fab fa-whatsapp"></i></span>
+            <span>+93 708 760 475</span>
+          </a>
+          <a href="mailto:your.email@example.com" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span>rashidaymaq@gmail.com</span>
+          </a>
+        </div>
+        <p class="copyright">
+          © 2024Lightweight Web Animations. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
