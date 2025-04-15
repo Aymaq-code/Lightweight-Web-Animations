@@ -13,7 +13,7 @@ significantly impact your website's loading time and performance.
 
 Click [here](https://aymaq-code.github.io/Lightweight-Web-Animations/) to see the live demo
 
-![Demo Preview](/dis.png)
+![Demo Preview](/Light%20Animation%20img.png)
 
 ## Features
 
